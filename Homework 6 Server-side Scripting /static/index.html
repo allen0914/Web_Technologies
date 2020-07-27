@@ -1,0 +1,620 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <script type="text/javascript" src="static/index.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+    <meta charset="utf-8"/>
+    <style type="text/css">
+
+    </style>
+
+
+</head>
+
+
+<div class="wrap">
+    <ul>
+        <a href="#" id="google">
+            <li id="googlecolor">Google News</li>
+        </a>
+        <a href="#" id="search">
+            <li id="searchcolor"> Search</li>
+        </a>
+    </ul>
+</div>
+
+
+<div id="page1">
+
+    <a href="" target="_blank" id="news_slide_link1">
+        <div class="news_slide">
+            <img src="pic.jpg" id="news_slide_image1">
+            <div class="news_slide_content">
+                <p id="news_slide_title1">333</p>
+                <p id="news_slide_content1">b444bb</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="" target="_blank" id="news_slide_link2">
+        <div class="news_slide">
+            <img src="pic.jpg" id="news_slide_image2">
+            <div class="news_slide_content">
+                <p id="news_slide_title2">333</p>
+                <p id="news_slide_content2">b444bb</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="" target="_blank" id="news_slide_link3">
+        <div class="news_slide">
+            <img src="pic.jpg" id="news_slide_image3">
+            <div class="news_slide_content">
+                <p id="news_slide_title3">333</p>
+                <p id="news_slide_content3">b444bb</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="" target="_blank" id="news_slide_link4">
+        <div class="news_slide">
+            <img src="pic.jpg" id="news_slide_image4">
+            <div class="news_slide_content">
+                <p id="news_slide_title4">333</p>
+                <p id="news_slide_content4">b444bb</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="" target="_blank" id="news_slide_link5">
+        <div class="news_slide">
+            <img src="pic.jpg" id="news_slide_image5">
+            <div class="news_slide_content">
+                <p id="news_slide_title5">333</p>
+                <p id="news_slide_content5">b444bb</p>
+            </div>
+        </div>
+    </a>
+
+
+    <div id="word_cloud">
+
+    </div>
+
+
+    <div class="news_card">
+
+        <div class="cnn_title">
+            <p1> CNN</p1>
+        </div>
+
+        <a href="" target="_blank" id="news_card_link1">
+            <div id="news_card_1">
+                <img src=" " id="news_card_img1">
+                <p id="news_card_title1"></p>
+                <p id="news_card_dis1"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link2">
+            <div id="news_card_2">
+                <img src=" " id="news_card_img2">
+                <p id="news_card_title2"></p>
+                <p id="news_card_dis2"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link3">
+            <div id="news_card_3">
+                <img src=" " id="news_card_img3">
+                <p id="news_card_title3"></p>
+                <p id="news_card_dis3"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link4">
+            <div id="news_card_4">
+                <img src=" " id="news_card_img4">
+                <p id="news_card_title4"></p>
+                <p id="news_card_dis4"></p>
+            </div>
+        </a>
+
+
+        <div class="fox_title">
+            <p1> Fox News</p1>
+        </div>
+
+        <a href="" target="_blank" id="news_card_link5">
+            <div id="news_card_5">
+                <img src="" id="news_card_img5">
+                <p id="news_card_title5"></p>
+                <p id="news_card_dis5"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link6">
+            <div id="news_card_6">
+                <img src="" id="news_card_img6">
+                <p id="news_card_title6"></p>
+                <p id="news_card_dis6"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link7">
+            <div id="news_card_7">
+                <img src="" id="news_card_img7">
+                <p id="news_card_title7"></p>
+                <p id="news_card_dis7"></p>
+            </div>
+        </a>
+
+        <a href="" target="_blank" id="news_card_link8">
+            <div id="news_card_8">
+                <img src="" id="news_card_img8">
+                <p id="news_card_title8"></p>
+                <p id="news_card_dis8"></p>
+            </div>
+        </a>
+    </div>
+
+
+</div>
+
+<div id="page2">
+
+
+    <div class="search_form">
+
+        <div class="search_line1">
+            <div class="keyword">
+                <p2> Keyword
+                    <p7> *</p7>
+                </p2>
+                <input type="text" id="search_text" value="" required>
+
+            </div>
+
+            <div class="From">
+                <p3> From
+                    <p7> *</p7>
+                </p3>
+                <input id="search_from_date" type="date" required>
+
+            </div>
+
+            <div class="To">
+                <p4> To
+                    <p7> *</p7>
+                </p4>
+                <input id="search_to_date" type="date" required>
+            </div>
+        </div>
+
+
+        <div class="search_line2">
+
+            <div id="category_option">
+                <p5> Category</p5>
+                <select id="search_category" onchange="loadSource()">
+                    <option value="all">all</option>
+                    <option value="business">business</option>
+                    <option value="entertainment">entertainment</option>
+                    <option value="general">general</option>
+                    <option value="health">health</option>
+                    <option value="science">science</option>
+                    <option value="sports">sports</option>
+                    <option value="technology">technology</option>
+                </select>
+            </div>
+
+
+            <div id="source_option">
+                <p6> Source</p6>
+                <select id="source_select">
+                    <option value="all">all</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="search_bottom">
+            <button class="button" type="button" onclick="loadSearchNews()">Search</button>
+            <button class="button" type="button" onclick="clearSearchRequest()">Clear</button>
+        </div>
+
+
+    </div>
+
+
+    <p id="no_search_result"> No results </p>
+
+    <div class="search_result">
+
+
+        <div class="search_card" onclick="showDetail(0)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(0)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(1)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(1)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(2)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(2)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(3)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(3)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(4)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(4)"> ✕ </p>
+        </div>
+
+
+        <button class="show_more_button" type="button" onclick="showMoreResult()">Show More</button>
+
+        <div class="search_card" onclick="showDetail(5)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(5)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(6)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(6)"> ✕ </p>
+        </div>
+
+
+        <div class="search_card" onclick="showDetail(7)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(7)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(8)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(8)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(9)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(9)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(10)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(10)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(11)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(11)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(12)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(12)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(13)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(13)"> ✕ </p>
+        </div>
+
+        <div class="search_card" onclick="showDetail(14)">
+            <img class="search_card_img" src="">
+
+
+            <div class="search_card_text">
+
+                <p class="search_card_title"></p>
+
+                <div class="search_card_1">
+                    <p class="search_card_brief"></p>
+                </div>
+
+                <div class="search_card_2">
+                    <p class="search_card_author"></p>
+                    <p class="search_card_source"></p>
+                    <p class="search_card_date"></p>
+                    <p class="search_card_description"></p>
+                    <a class="search_card_link" href=""></a>
+                </div>
+
+            </div>
+            <p class="x" onclick="showBrief(14)"> ✕ </p>
+        </div>
+
+
+        <button class="show_less_button" type="button" onclick="showLessResult()">Show Less</button>
+
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+<body>
+
+
+</body>
+</html>

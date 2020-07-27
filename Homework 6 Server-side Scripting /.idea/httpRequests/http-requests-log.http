@@ -1,0 +1,400 @@
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T040516.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T040448.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T040411.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T040154.200.json
+
+###
+
+GET http://localhost:5000/api/cnn
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T040129.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035851.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035818.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035759.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035711.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035522.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035432.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035324.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T035147.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/technology
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033915.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/sports
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033816.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/health
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033806.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/health
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033805.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033625.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033618.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033614.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033606-1.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033606.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033604.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T033144.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032548.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032536.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032535.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032526.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032411.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032345.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032321.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032317-1.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T032317.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T031711.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T030721.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T030716.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T030052.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025926.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025850.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025755.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025733.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025601.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025555.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025525.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T025047.500.html
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T024828.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T024816.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/All
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T024729.200.json
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T024637.500.html
+
+###
+
+GET http://localhost:5000/api/getsource/general
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-08T024342.200.json
+
+###
+
