@@ -1,0 +1,14 @@
+platform :ios, '13.0'
+
+target 'News App' do
+  use_frameworks!
+  
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Alamofire', '~> 5.1'
+  pod 'Charts'
+  pod 'XLPagerTabStrip'
+  pod 'SwiftSpinner'
+  pod 'DGCollectionViewLeftAlignFlowLayout'
+  pod 'Toast-Swift', '~> 5.0.0'
+
+end
